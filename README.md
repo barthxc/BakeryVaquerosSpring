@@ -1,26 +1,36 @@
 # BakeryVaquerosSpring
-Intento de CRUD Spring 60% completado.
 
-He realizado una validación con el front usando Jquery llamando al @PostMapping de mi Spring para retornar dependiendo de la opción marcada una vez guardado los datos.
-Los datos se guardan correctamente, pero no he logrado mostrarlos en mi plantilla a pesar de guardar mis pedidos con sus productos en el modelo.
+Este es un proyecto en desarrollo que utiliza Spring para implementar un CRUD (Crear, Leer, Actualizar, Eliminar) en un entorno de panadería llamado BakeryVaqueros. Actualmente, el proyecto está aproximadamente un 60% completo.
 
-Los datos se guardan correctamente en la base de datos.
+## Descripción del Proyecto
 
+En este proyecto, se ha realizado una validación con el front-end utilizando jQuery y llamando a la anotación `@PostMapping` de Spring para realizar la operación de guardado de datos. Dependiendo de la opción seleccionada, los datos son guardados correctamente, pero aún no se logra mostrarlos en la plantilla a pesar de que los pedidos con sus respectivos productos están siendo guardados en el modelo.
 
+Los datos se guardan correctamente en la base de datos, lo que indica que la funcionalidad de guardado está en funcionamiento.
 
-#Problemas que arreglar:
-  -Retorno correcto de las plantillas con la información de los pedidos + productos
-  -Cambio de fuente para poder mostrar los números, ya que la tipografía que utilizar para el diseño de la web no tiene números.
+## Problemas a Resolver
 
-#Pendiente para agregar:
-  -Login con usuario admin CRUD completo.
-  -Login con usuario jefe para poder ver los productos en Stock de la panadería.
-  -Poder hacer CRUD a productos en Stock de la panadería
-  -Poder los pedidos/productos de los clientes sin poder modificarlos.
-  -Implementación de carga de select a través de los productos en Stock.
-  -Cambiar el Preload de la web.
+A continuación, se enumeran los problemas que necesitan ser abordados en el proyecto:
 
-No podría definir donde se encuentras lo errores exactamente y como es mi primer enfrentamiento con Spring estoy contento de hacer un Frankestein medio funcional.
-Espero que os ayude o os guste el proyecto. Subiré el front independiente para poder disfrutarlo.
+- Lograr el retorno correcto de las plantillas con la información de los pedidos y productos para que se muestren adecuadamente en la interfaz de usuario.
+- Cambiar la fuente utilizada en el diseño de la web, ya que la tipografía actual no incluye números y dificulta su visualización.
 
+## Funcionalidades Pendientes
+
+Además de solucionar los problemas mencionados, hay varias funcionalidades pendientes que se planea agregar al proyecto:
+
+- Implementar un sistema de inicio de sesión con un usuario administrador para tener un control total sobre el CRUD.
+- Crear un inicio de sesión adicional para un usuario jefe que permita ver los productos en stock de la panadería.
+- Habilitar la capacidad de realizar operaciones CRUD en los productos en stock de la panadería.
+- Permitir la visualización de los pedidos y productos de los clientes sin permitir su modificación.
+- Implementar la carga dinámica de opciones en un elemento `select` a través de los productos disponibles en stock.
+- Cambiar el efecto de carga previa de la página web para mejorar la experiencia del usuario.
+
+## Estado del Proyecto
+
+Dado que este es mi primer encuentro con Spring y aún no se ha podido identificar exactamente dónde se encuentran los errores, considero que el proyecto se encuentra en un estado funcional medio. A pesar de los desafíos encontrados, estoy satisfecho con los resultados obtenidos hasta ahora.
+
+Espero que este proyecto sea útil o agradable para quienes lo revisen. También planeo subir el front-end de forma independiente para que pueda ser disfrutado por separado.
+
+¡Gracias por tu interés en el proyecto BakeryVaquerosSpring!
 
